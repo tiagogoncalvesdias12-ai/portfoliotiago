@@ -1,0 +1,241 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif; /** écriture en poppins**/
+    color: #f9f9f9;
+    font-size: medium ; /**taille moyenne**/
+}
+
+#titre p {
+    font-size: 24px;
+    font-weight: bold;  /** Texte en gras **/
+    text-align: center; /** Centre le texte **/
+}
+
+#menu ul {
+    list-style-type: none; /** Supprime les ronds de la liste **/
+    text-align: center;
+    padding: 0;
+}
+
+#menu ul li {
+    display: inline; /** Aligne les différents menus **/
+    margin: 0 15px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    text-align: center; 
+    background-color: #f9f9f9;
+}
+
+#titre h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+#menu ul {
+    list-style-type: none;
+    padding: 10px;
+    background-color: #333;
+    text-align: center;
+}
+
+#menu ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+#menu ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#menu ul li a:hover { /** hover= élément cliquable**/
+    color: #ff6600;
+}
+
+#menu ul li a:hover {
+    border-bottom: 2px solid #ff6600;
+}
+
+
+.images {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.images img,
+.images iframe {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /** Ombres autour des images **/
+}
+
+.image-item p {
+    font-size: 16px;
+    margin-top: 8px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+.image-item {
+    text-align: center;
+}
+
+.images img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-item p {
+    font-size: 16px;
+    margin-top: 8px;
+}
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 20px;
+}
+p {
+    font-size: 18px;
+}
+/** style pour les articles**/
+.article1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.article1 a {
+    font-size: 18px;
+    color: #ff6600;
+    text-decoration: none; /** Ne souligne pas quand on on passe la souris dessus **/
+}
+
+.article2 a:hover {
+    text-decoration: underline; /** Permet de souligner au moment où on passe la souris dessus **/
+}
+
+.article2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.article2 a {
+    font-size: 18px;
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.article2 a:hover {
+    text-decoration: underline;
+}
+
+.article3 a:hover {
+    text-decoration: underline;
+}
+
+.article3 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.article3 a {
+    font-size: 18px;
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.article3 a:hover {
+    text-decoration: underline;
+}
+
+.article4 a:hover {
+    text-decoration: underline;
+}
+
+.article4 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.article4 a {
+    font-size: 18px;
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.article4 a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 60%; /** largeur**/
+    border-collapse: collapse;
+    margin: 40px auto;
+    background-color: rgba(255, 248, 248, 0.8);
+}
+
+td {
+    padding: 20px;
+    border: 2px solid #000; /**bordures autour**/
+    height: 250px; /**hauteur**/
+    text-align: center;
+    background-color: rgba(255, 248, 248, 0.8); /** couleur assez transparente pour pouvoir quand même voir le background**/
+}
+.article5 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.article5 a {
+    font-size: 18px;
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.article5 a:hover {
+    text-decoration: underline;
+}
+
+.article6 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.article6 a {
+    font-size: 18px;
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.article6 a:hover {
+    text-decoration: underline;
+}
+
+

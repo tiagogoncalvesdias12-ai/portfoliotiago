@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title> Veille technologique </title>
+		<link rel="stylesheet" type="text/css" href="veille.css" /> <!--lien entre le css et la page html-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	</head>
+	<body onload="afficherAlerte()" background="fondveille3.jpg">
+		<script>
+			function afficherAlerte() { // Initialisation de la variable afficherAlerte()
+				alert("Vous êtes dans l'accueil"); //Affiche le message d'alerte de l'acceuil
+			}
+		</script>
+		<div id="titre">
+			<h1> La réalité virtuelle et augmenté dans le domaine du sport</h1>  <!--Grand titre de la veille-->
+		</div>
+		<div id="menu">
+			<ul>
+				<li><a href="veille.html">Accueil:</a></li> <!--Lien vers l'acceuil-->
+				<li><a href="article1.html">Article 1:</a></li> <!--Lien vers l'article 1-->
+				<li><a href="article2.html"> Article 2:</a></li> <!--Lien vers l'article 2-->
+				<li><a href="article3.html">Article 3:</a></li> <!--Lien vers l'article 3-->
+				<li><a href="article4.html">Article 4:</a></li><!--Lien vers l'article 4-->
+				<li><a href="article5.html">Article 5:</a></li>
+				<li><a href="article6.html">Article 6:</a></li>
+				<li><a href="conclusion.html">Conclusion:</a></li> <!--Lien vers la conclusion-->
+			</ul>
+		</div>
+		<div id="contenu"> <!--création de ma div pour le contenu de la page-->
+			<h2> Quel est la différence entre la réalité virtuelle et augmentée ?</h2> 
+			<p>La réalité virtuelle : immersion totale dans un monde numérique.
+				La réalité virtuelle est une technologie qui permet aux utilisateurs de s’immerger complètement dans un environnement numérique. Les casques de réalité virtuelle, tels que l’Oculus Rift ou le HTC Vive, sont des dispositifs portables qui placent un écran devant les yeux de l’utilisateur. En utilisant des capteurs de mouvement et des contrôleurs, les utilisateurs peuvent interagir avec cet environnement virtuel et avoir l’impression d’être transportés dans un autre monde.
+				
+				L’un des principaux objectifs de la réalité virtuelle est de tromper les sens de l’utilisateur pour lui donner l’impression d’être réellement présent dans l’environnement numérique. Les expériences de réalité virtuelle peuvent varier, allant des jeux vidéo immersifs aux simulations éducatives en passant par des visites virtuelles de lieux historiques ou lointains. Tout cela dans un cadre ludique entre familles, amis ou encore collègues pour un team building. L’utilisation de jeux de réalité virtuelle (RV) fait également objet d’études pratiques dans la psychothérapie. </p>
+				<p>La réalité augmentée : superposition d’éléments numériques sur le monde réel.
+					La réalité augmentée, quant à elle, consiste à superposer des éléments numériques sur le monde réel. Contrairement à la réalité virtuelle, l’AR ne remplace pas l’environnement qui nous entoure mais ajoute des couches d’informations ou d’interactions supplémentaires. Les appareils de réalité augmentée, tels que les smartphones, les tablettes ou les lunettes intelligentes comme les Microsoft HoloLens, utilisent des caméras et des capteurs pour analyser l’environnement réel et y superposer des éléments numériques en temps réel.
+					
+					Les applications de réalité augmentée sont nombreuses et variées. Elles incluent la navigation GPS avec des indications en surimpression sur le paysage, l’essai de meubles dans votre maison avant de les acheter ou encore les jeux mobiles qui intègrent des éléments virtuels dans votre environnement quotidien.</p>
+		</div>
+		<div class="images"> <!--Création de ma div pour les images et les lègendes-->
+            <div class="image-item">
+                <img src="imgaugmentée.jpg" alt="Exemple de réalité augmentée">
+                <p><i>Exemple sur la réalité augmentée</i></p>
+            </div>
+            <div class="image-item">
+                <img src="imgvirtuelle.jpg" alt="Exemple de réalité virtuelle">
+                <p><i>Exemple sur la réalité virtuelle</i></p>
+			</div>
+		</div>
+	</body>
+</html>

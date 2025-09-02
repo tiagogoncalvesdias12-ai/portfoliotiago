@@ -1,0 +1,169 @@
+/* ==== Style global ==== */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f1220;
+  color: #e7e9f4;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #444;
+  padding: 8px;
+  text-align: left;
+}
+
+.texte-secondaire {
+  color: #a9afcf;
+  font-size: 14px;
+}
+
+/* ==== En-tête ==== */
+header {
+  background: #101431;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid #333;
+}
+
+header .conteneur {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  gap: 15px;
+}
+
+.logo {
+  font-weight: bold;
+  color: #7c5cff;
+}
+
+/* ==== Sections ==== */
+.section {
+  padding: 40px 0;
+}
+
+.conteneur {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 16px;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+}
+
+/* ==== Blocs ==== */
+.bloc {
+  background: #151936;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+/* ==== Grilles ==== */
+.ligne-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.ligne-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.liste-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.tag {
+  background: #222;
+  border-radius: 12px;
+  padding: 4px 10px;
+  font-size: 14px;
+}
+
+/* ==== Boutons ==== */
+.bouton {
+  display: inline-block;
+  padding: 10px 14px;
+  background: #7c5cff;
+  border-radius: 6px;
+  color: white;
+  margin-top: 8px;
+  transition: 0.2s;
+}
+
+.bouton:hover {
+  background: #5a3edc;
+}
+
+/* ==== Formulaire ==== */
+form {
+  display: grid;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #444;
+  border-radius: 6px;
+  font-size: 1rem;
+  background: #0f1220;
+  color: #e7e9f4;
+}
+
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* ==== Pied de page ==== */
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #333;
+  color: #aaa;
+  margin-top: 40px;
+}
+
+/* ==== Responsive ==== */
+@media (max-width: 900px) {
+  .ligne-2, .ligne-3 {
+    grid-template-columns: 1fr;
+  }
+
+  header ul {
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 10px;
+  }
+}

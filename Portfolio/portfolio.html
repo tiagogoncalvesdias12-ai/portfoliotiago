@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio – Tiago Gonçalves Dias</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Menu -->
+  <header>
+    <div class="conteneur">
+      <a class="logo" href="#accueil">Tiago Dias</a>
+      <nav>
+        <ul>
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#identite">Présentation</a></li>
+          <li><a href="#parcours">Parcours</a></li>
+          <li><a href="#projet">Projet</a></li>
+          <li><a href="#realisations">Réalisations</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="conteneur">
+
+    <!-- Accueil -->
+    <section id="accueil" class="section">
+      <h1>Bienvenue — Je suis Tiago Gonçalves Dias</h1>
+      <p>Étudiant en BTS SIO. Ce portfolio présente mon parcours, mes projets et mon projet professionnel.</p>
+    </section>
+
+    <!-- Présentation -->
+    <section id="identite" class="section">
+      <h2>Présentation</h2>
+      <div class="ligne-2">
+        <div class="bloc">
+          <h3>Qui suis-je ?</h3>
+          <p>Je m’appelle <strong>Tiago Gonçalves Dias</strong>, étudiant en BTS SIO. Passionné par l’informatique, je m’intéresse au développement web, aux bases de données et aux systèmes.  
+          Je suis curieux, motivé et j’aime apprendre de nouvelles technologies tout en travaillant en équipe.</p>
+        </div>
+        <div class="bloc">
+          <h3>Mon CV</h3>
+          <p>Téléchargez mon CV au format PDF :</p>
+          <a class="bouton" href="CVtiago.pdf" download>Télécharger le CV</a>
+        </div>
+      </div>
+      <div class="bloc">
+        <h3>Activités extra-scolaires</h3>
+        <ul>
+          <li>Sport</li>
+          <li>Lecture</li>
+          <li>Cuisine</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Parcours -->
+    <section id="parcours" class="section">
+      <h2>Mon parcours</h2>
+      <div class="ligne-2">
+        <div class="bloc">
+          <h3>Formation</h3>
+          <ul>
+            <li>BTS SIO (Services informatiques aux organisations) 2024-2026</li> </br>
+            <li>Bac Pro MELEC (Métiers de l'électricité et de ses environnements connectés) 2018-2021</li>
+          </ul>
+        </div>
+        <div class="bloc">
+          <h3>Compétences</h3>
+          <div class="liste-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">SQL</span>
+            <span class="tag">Java</span>
+            <span class="tag">Python</span>
+          </div>
+        </div>
+      </div>
+      <div class="bloc">
+        <h3>Expériences</h3>
+        <table>
+          <tr><th>Période</th><th>Organisation</th><th>Mission</th></tr>
+          <tr><td>2024</td><td>MJC François Rabelais</td><td>Mise à jour site web et réseaux sociaux</td></tr>
+          <tr><td>À venir</td><td>Entreprise Y</td><td>Base de données, scripts</td></tr>
+        </table>
+      </div>
+    </section>
+
+    <!-- Projet pro -->
+    <section id="projet" class="section">
+      <h2>Mon projet professionnel</h2>
+      <div class="bloc">
+        <p>Après mon BTS SIO, je souhaite poursuivre mes études en Licence MIAGE (Méthodes Informatiques Appliquées pour la Gestion des Entreprises) puis en Master Informatique afin de devenir développeur ou ingénieur logiciel.</p>
+      </div>
+    </section>
+
+    <!-- Réalisations -->
+    <section id="realisations" class="section">
+      <h2>Mes réalisations</h2>
+      <div class="bloc">
+        <h3>Veille Technologique</h3>
+        <p>Veille sur l’usage de la réalité virtuelle et augmentée dans le sport.</p>
+        <a class="bouton" href="./Veille_technologique/veille.html" target="_blank">Voir la veille</a>
+      </div>
+      <div class="bloc">
+        <h3>Projet Java — Ménagerie</h3>
+        <p>Application Java (interface graphique) pour gérer une ménagerie : ajout, recherche et suppression d’animaux.</p>
+        <a class="bouton" href="./Projet_Menagerie/index.html" target="_blank">Voir le projet</a>
+      </div>
+    </section>
+
+    <!-- Passion -->
+    <section id="passion" class="section">
+      <h2>Mes passions</h2>
+      <div class="bloc">
+        <ul>
+          <li>Technologie : découvrir les nouveautés et tester de nouveaux logiciels</li>
+          <li>Mangas et animés</li>
+          <li>Sport : football, musculation, course</li>
+          <li>Jeux vidéo : RPG et stratégie</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact -->
+<!-- Contact -->
+<section id="contact" class="section">
+  <h2>Contact</h2>
+  <div class="bloc">
+    <p class="texte-secondaire" id="aide-contact">
+      ⚠️ Pas d'informations sensibles. Utilisez une adresse dédiée si possible.
+    </p>
+    <form action="mailto:votre.email@exemple.com" method="post" enctype="text/plain" aria-describedby="aide-contact">
+      
+      <label for="nom">Nom <span class="texte-secondaire">(obligatoire)</span></label>
+      <input id="nom" name="nom" type="text" placeholder="Votre nom" required>
+
+      <label for="email">E-mail <span class="texte-secondaire">(obligatoire)</span></label>
+      <input id="email" name="email" type="email" placeholder="vous@exemple.com" required>
+
+      <label for="sujet">Sujet</label>
+      <input id="sujet" name="sujet" type="text" placeholder="Sujet de votre message">
+
+      <label for="message">Message <span class="texte-secondaire">(obligatoire)</span></label>
+      <textarea id="message" name="message" placeholder="Votre message..." minlength="10" required></textarea>
+
+      <!-- Champ anti-spam invisible -->
+      <input type="text" name="website" style="position:absolute;left:-9999px" tabindex="-1" autocomplete="off">
+
+      <button class="bouton" type="submit">Envoyer</button>
+      <p class="texte-secondaire" style="margin-top:8px">
+        💡 Astuce : si le bouton n’ouvre pas votre logiciel de messagerie, envoyez directement un e-mail à 
+        <strong>tiagogoncalvesdias12@gmail.com</strong>.
+      </p>
+    </form>
+  </div>
+</section>
+
+
+  </main>
+
+  <footer>
+    <p>© <span id="annee"></span> Tiago Gonçalves Dias — Portfolio</p>
+  </footer>
+
+  <script>
+    document.getElementById("annee").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
